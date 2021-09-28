@@ -1,4 +1,28 @@
-h1{
-  font-weight:  bold;
-  color: blue;
+ion-item{
+
+  --padding-start: 10px;
+  --padding-end: 10px;
+
+  ion-thumbnail{
+    height: 100%;
+    margin-inline-end: 10px;
+  }
+
+  h1{
+    font-weight: bold;
+    font-size:  0.8rem;
+  }
+
+  p{
+    font-size:0.6rem ;
+  }
+  p+p{
+    color:#888787
+     ;
+  }
+  ion-chip{
+    padding-inline: 3px ;
+  }
+
+
 }
